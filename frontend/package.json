@@ -1,0 +1,26 @@
+{
+  "name": "my-web-app-frontend",
+  "version": "1.0.0",
+  "description": "A simple web app frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "frontend"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1",
+    "babel-loader": "^8.2.3",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "core-js": "^3.19.3"
+  }
+}
